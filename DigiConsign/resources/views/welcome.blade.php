@@ -8,7 +8,9 @@
     </head>
     <body class="font-sans antialiased dark:text-white/50">
         <div id="app">
-            <carousel-component :images="['../images/panduan-keamanan.png', '../images/slideA2.jpg', '../images/slideA3.jpg']"></carousel-component>
+            <navbar></navbar>
+            <br>
+            <carousel-component :images="['/images/panduan-keamanan.png', '/images/privacy-policy.png']"></carousel-component>
         </div>
         <!-- <script src="{{ mix('js/app.js') }}"></script> -->
         <!-- <script type="module" src="{{ asset('resources/js/app.js') }}"></script> -->
